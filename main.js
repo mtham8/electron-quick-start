@@ -1,3 +1,9 @@
+/**
+* Main Process: This script runs to display a GUI by creating web pages. The main process creates web pages
+* by creating BrowserWindow instances. Each BrowserWindow instance runs the web page in its own renderer process.
+* When a BrowserWindow instance is destroyed, the corresponding renderer process is also terminated.
+*/
+
 const electron = require('electron')
 // Module to control application life.
 const app = electron.app
